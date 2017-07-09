@@ -2,5 +2,6 @@
 {
     public sealed class TreeSourceData : SourceData<TreeSourceData>
     {
+        public string Platform { get; set; }
     }
 }
